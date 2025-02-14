@@ -1,7 +1,4 @@
-* {
-    background-color: rgb(216, 205, 192);
-    color: black;
-}
+
  .header-image {
     height: auto;
     width: 400px;
@@ -23,9 +20,28 @@
     font-size: 16px;
 }
 h1, h2, h3 {
+    color: rgb(255, 247, 235);
     text-align: center;
-    text-shadow: 1px 1px 1px #ffffff;
+    text-shadow: 1px 1px 1px #000000;
 }
 a {
-    color:rgb(68, 154, 185);
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+    text-decoration: none;
+}
+body {
+    background-color: #e9e6e4;
+}
+.recipe-list {
+    background-color: rgb(63, 93, 145);
+    color: rgb(255, 255, 255);
+    border: solid black 2px;
+    padding: 5px;
+    width: 80%;
+    height: 40%;
+    margin: auto;
+}
+.centered {
+    text-align: center;
+    list-style: none;
 }
